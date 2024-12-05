@@ -11,24 +11,24 @@ const Introduction = () => {
         <Image
           src="/home-4.png"
           priority
-          alt="Profiel pic"
+          alt="Profile picture"
           width={800}
           height={800}
         />
         <div className="flex flex-col justify-center max-w-md">
           <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">
-            Si puedes pensarlo,
+            If you can imagine it,
             <TypeAnimation
               sequence={[
-                "puedes programarlo",
+                "you can program it",
                 1000,
-                "puedes crearlo",
+                "you can create it",
                 1000,
-                "puedes hacerlo",
+                "you can make it happen",
                 1000,
-                "puedes optimizarlo",
+                "you can optimize it",
                 1000,
-                "puedes desarrollarlo",
+                "you can develop it",
                 1000,
               ]}
               wrapper="span"
@@ -38,21 +38,21 @@ const Introduction = () => {
             />
           </h1>
           <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
-            Como desarrollador frontend y backend, me dedico a crear soluciones
-            digitales que impulsen el éxito de tus clientes en el mundo digital.
+            As a frontend and backend developer, I specialize in creating digital solutions
+            that drive your clients&apos; success in the digital world.
           </p>
           <div className="flex gap-3 md:justify-start items-center md:gap-10">
             <Link
-              href="/proyects"
+              href="/portfolio"
               className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50"
             >
-              Ver Proyectos
+              View Projects
             </Link>
             <Link
               href="/contact"
               className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary text-secondary border-secondary"
             >
-              Contacta conmigo
+              Contact Me
             </Link>
           </div>
         </div>

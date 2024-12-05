@@ -1,257 +1,240 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import {
+  BookText,
+  CodeSquare,
+  HomeIcon,
+  UserRound,
+  Linkedin,
+  Crop,
+  Pencil,
+  Computer,
+  Book,
+  Rocket,
+  Speech,
+  Github,
+} from "lucide-react";
 
 export const socialNetworks = [
-    {
-        id: 1,
-        logo: <Youtube size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 2,
-        logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
-        src: "#!",
-    },
+  {
+    id: 1,
+    logo: <Linkedin size={40} strokeWidth={1} />,
+    src: "https://www.linkedin.com/in/gustavo-a-espitia/",
+  },
+  {
+    id: 2,
+    logo: <Github size={40} strokeWidth={1} />,
+    src: "https://github.com/gusespitia",
+  },
 ];
 
-
 export const itemsNavbar = [
-    {
-        id: 1,
-        title: "Home",
-        icon: <HomeIcon size={25} color="#fff" strokeWidth={1} />,
-        link: "/",
-    },
-    {
-        id: 2,
-        title: "User",
-        icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
-        link: "/about-me",
-    },
-    {
-        id: 3,
-        title: "Book",
-        icon: <BookText size={25} color="#fff" strokeWidth={1} />,
-        link: "/services",
-    },
-    {
-        id: 4,
-        title: "Target",
-        icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
-        link: "/portfolio",
-    },
-    {
-        id: 5,
-        title: "Home",
-        icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/testimonials",
-    },
+  {
+    id: 1,
+    title: "Home",
+    icon: <HomeIcon size={25} color="#fff" strokeWidth={1} />,
+    link: "/",
+  },
+  {
+    id: 2,
+    title: "User",
+    icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
+    link: "/about-me",
+  },
+  {
+    id: 3,
+    title: "Services",
+    icon: <BookText size={25} color="#fff" strokeWidth={1} />,
+    link: "/services",
+  },
+  {
+    id: 4,
+    title: "Portfolio",
+    icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
+    link: "/portfolio",
+  },
+  {
+    id: 5,
+    title: "Testimonials",
+    icon: <Speech size={25} color="#fff" strokeWidth={1} />,
+    link: "/testimonials",
+  },
 ];
 
 export const dataAboutPage = [
-    {
-        id: 1,
-        title: "Frontend Developer",
-        subtitle: "TechSolutions",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "Nov 2023 ",
-    },
-    {
-        id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
-    },
-    {
-        id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
-    },
-    {
-        id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
-    },
-]
+  {
+    id: 1,
+    title: "IT Technician and Web Developer",
+    subtitle: "Santa Isabel de Hungria - Colombia.",
+    description:
+      "Completed a comprehensive course covering web domains and hosting, essential web design tools, and foundational technologies like HTML, CSS3, and JavaScript. Gained expertise in creating responsive websites using frameworks such as Bootstrap and tools like Dreamweaver, RocketCake, and Mobirise. Advanced knowledge of WordPress, including theme customization, plugin integration, HTTPS setup, and online payment gateways like WooCommerce. Acquired skills in configuring virtual stores, ensuring site security, and registering websites with search engines. The program emphasized creating modern, dynamic web designs tailored for client needs in a competitive digital landscape.",
+    date: "Nov 2011",
+  },
+
+  {
+    id: 2,
+    title: "Internship",
+    subtitle: "David Verhulst.",
+    description:
+      "Completed an internship under the guidance of my Syntra professor, where I developed a user management application. The application allowed users to create accounts, post updates, and interact with posts, while professors, acting as superusers, could view all student posts. The project was built using modern technologies: ShadCN, TailwindCSS, React, Node.js, and Vercel. For authentication, Userfront was implemented to manage user access. On the frontend, the setup included a Vite-based workflow with tools like React Router and ESLint, and the backend was powered by Knex.js for database interactions, utilizing PostgreSQL. This comprehensive application streamlined communication and user interactions effectively.",
+    date: "Mar 2024",
+  },
+  {
+    id: 3,
+    title: "Full Stack Developer",
+    subtitle: "Syntra Mechelen",
+    description:
+      "Enrolled in an intensive full-time day program to become a Full Stack Developer, combining frontend and backend expertise. The curriculum included HTML, CSS, JavaScript, PHP, and frameworks such as React and advanced backend technologies. Key modules covered functional and object-oriented programming, REST APIs, security, and project management. During the one-month internship, I created an application that allowed user account management, status posting, and a superuser feature for teachers to monitor student activity. Tools used included TailwindCSS, ShadCN, Vercel, Knex.js, and Userfront for authentication. This hands-on experience strengthened my technical skills and prepared me for professional challenges in web development.",
+    date: "Sep 2014",
+  }
+  
+];
 
 export const dataCounter = [
-    {
-        id: 0,
-        endCounter: 10,
-        text: "Años de experiencia",
-        lineRight: true,
-        lineRightMobile: true,
-    },
-    {
-        id: 1,
-        endCounter: 80,
-        text: "Clientes satisfechos",
-        lineRight: true,
-        lineRightMobile: false,
-    },
-    {
-        id: 2,
-        endCounter: 220,
-        text: "Proyectos finalizados",
-        lineRight: true,
-        lineRightMobile: true,
-    },
-    {
-        id: 3,
-        endCounter: 30,
-        text: "Premios ganadores",
-        lineRight: false,
-        lineRightMobile: false,
-    },
+  {
+    id: 0,
+    endCounter: 1,
+    text: "Years of experience",
+    lineRight: true,
+    lineRightMobile: true,
+  },
+  {
+    id: 1,
+    endCounter: 3,
+    text: "Satisfied clients",
+    lineRight: true,
+    lineRightMobile: false,
+  },
+  {
+    id: 2,
+    endCounter: 4,
+    text: "Completed projects",
+    lineRight: true,
+    lineRightMobile: true,
+  },
 ];
 
 export const serviceData = [
-    {
-        icon: <Crop />,
-        title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
-    },
-    {
-        icon: <Pencil />,
-        title: "Diseño web",
-        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
-    },
-    {
-        icon: <Computer />,
-        title: "Desarrollo web",
-        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
-    },
-    {
-        icon: <Book />,
-        title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
-    },
-    {
-        icon: <Rocket />,
-        title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
-    },
+  {
+    icon: <Crop />,
+    title: "Branding",
+    description:
+      "Development of a strong and cohesive brand identity, including logo design, colors, and visual elements.",
+  },
+  {
+    icon: <Pencil />,
+    title: "Web Design",
+    description:
+      "Creative and professional design of intuitive and visually appealing web interfaces, focusing on user experience.",
+  },
+  {
+    icon: <Computer />,
+    title: "Web Development",
+    description:
+      "Custom design and development of websites tailored to your needs.",
+  },
+
+  {
+    icon: <Rocket />,
+    title: "SEO",
+    description:
+      "Optimization of your online presence with advanced SEO strategies.",
+  },
 ];
 
 export const dataPortfolio = [
-    {
-        id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 4,
-        title: "Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Webs Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    }
+  // {
+  //     id: 1,
+  //     title: "Web Pro",
+  //     image: "/image-1.jpg",
+  //     urlGithub: "#!",
+  //     urlDemo: "#!",
+  // },
+  // {
+  //     id: 2,
+  //     title: "Agile Web Development",
+  //     image: "/image-2.jpg",
+  //     urlGithub: "#!",
+  //     urlDemo: "#!",
+  // },
+  // {
+  //     id: 3,
+  //     title: "Web Strategies",
+  //     image: "/image-3.jpg",
+  //     urlGithub: "#!",
+  //     urlDemo: "#!",
+  // },
+  // {
+  //     id: 4,
+  //     title: "Creative Ideas",
+  //     image: "/image-4.jpg",
+  //     urlGithub: "#!",
+  //     urlDemo: "#!",
+  // },
+
+  {
+    id: 1,
+    title: "Price Hunter",
+    image: "/image-1.png",
+    urlGithub: "https://github.com/gusespitia/price-hunter-frontend",
+    urlDemo: "https://pricehunter.surge.sh",
+  },
+
+  {
+    id: 2,
+    title: "GusFlix Clone",
+    image: "/image-2.png",
+    urlGithub: "https://github.com/gusespitia/netflix-clone",
+    urlDemo: "https://netflixen-gustavos-projects-8028da13.vercel.app/login",
+  },
+  {
+    id: 3,
+    title: "Eccomerce-coffe",
+    image: "/image-3.png",
+    urlGithub: "https://github.com/gusespitia/eccomerce-coffe-be-gus",
+    urlDemo: "#!",
+  },
 ];
 
 export const dataTestimonials = [
-    {
-        id: 1,
-        name: "George Snow",
-        description:
-            "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!",
-        imageUrl: "/profile1.png",
-    },
-    {
-        id: 2,
-        name: "Juan Pérez",
-        description:
-            "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!",
-        imageUrl: "/profile2.png",
-    },
-    {
-        id: 3,
-        name: "María García",
-        description:
-            "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
-        imageUrl: "/profile3.png",
-    },
-    {
-        id: 4,
-        name: "Laura Snow",
-        description:
-            "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
-        imageUrl: "/profile4.png",
-    },
-    {
-        id: 5,
-        name: "Carlos Sánchez",
-        description:
-            "Una joya en la web. Los testimonios son fáciles de encontrar y están bien organizados. ¡Definitivamente mi destino número uno cuando necesito referencias confiables!",
-        imageUrl: "/profile5.png",
-    },
-    {
-        id: 6,
-        name: "Antonio Martínez",
-        description:
-            "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
-        imageUrl: "/profile6.png",
-    },
+  {
+    id: 1,
+    name: "George Snow",
+    description:
+      "Amazing platform! The testimonials here are genuine and have helped me make informed decisions. Highly recommended!",
+    imageUrl: "/profile1.png",
+  },
+  {
+    id: 2,
+    name: "Juan Perez",
+    description:
+      "I love the variety of testimonials available on this page. It's inspiring to see how others have overcome challenges similar to mine. Thanks for this invaluable source of motivation!",
+    imageUrl: "/profile2.png",
+  },
+  {
+    id: 3,
+    name: "Maria Garcia",
+    description:
+      "An excellent resource for obtaining authentic opinions about different products and services. It has helped me a lot with online shopping. Bravo for this site!",
+    imageUrl: "/profile3.png",
+  },
+  {
+    id: 4,
+    name: "Laura Snow",
+    description:
+      "What a fantastic discovery! The testimonials here are honest and detailed. I feel more confident making decisions after reading experiences shared by other users.",
+    imageUrl: "/profile4.png",
+  },
+  {
+    id: 5,
+    name: "Carlos Sanchez",
+    description:
+      "A gem on the web. The testimonials are easy to find and well-organized. Definitely my go-to when I need reliable references!",
+    imageUrl: "/profile5.png",
+  },
+  {
+    id: 6,
+    name: "Antonio Martinez",
+    description:
+      "A fantastic resource for those seeking validation before making important decisions! The testimonials here are truthful and extremely helpful. Thank you for simplifying my decision-making process!",
+    imageUrl: "/profile6.png",
+  },
 ];

@@ -14,9 +14,9 @@ const TestimonialsPage = () => {
       <div className="flex flex-col justify-center h-lvh">
         <CircleImage />
         <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
-          Algunos comentarios{" "}
+          Some comments
           <span className="font-bold text-secondary block">
-            de mis clientes
+            from my clients
           </span>
         </h1>
         <div className="felx items-centerjustify-center">
