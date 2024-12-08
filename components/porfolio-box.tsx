@@ -23,9 +23,9 @@ const PortfolioBox = ({ data }: PortfolioBoxProps) => {
             <Image
                 src={image}
                 alt={`${title} image`}
-                width={400}
+                width={260}
                 height={200}
-                className="w-full md:w-[400px] h-auto rounded-2xl"
+                className="w-full md:w-[260px] h-auto rounded-2xl"
             />
             <div className="flex gap-4 mt-4 text-center align-center justify-center my-auto">
                 <Link
