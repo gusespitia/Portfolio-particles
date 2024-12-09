@@ -20,15 +20,15 @@ const Introduction = () => {
             If you can imagine it,
             <TypeAnimation
               sequence={[
-                "you can program it",
+                "I can program it",
                 1000,
-                "you can create it",
+                "I can create it",
                 1000,
-                "you can make it happen",
+                "I can make it happen",
                 1000,
-                "you can optimize it",
+                "I can optimize it",
                 1000,
-                "you can develop it",
+                "I can develop it",
                 1000,
               ]}
               wrapper="span"

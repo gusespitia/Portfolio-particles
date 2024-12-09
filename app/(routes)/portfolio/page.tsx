@@ -13,7 +13,7 @@ const PortfolioPage = () => {
       <CircleImage />
       <div className="flex flex-col justify-center h-full">
         <h1 className="text-xl leading-tight text-center md:text-3xl md:mb-5">
-          Latest <span className="font-bold text-secondary">completed projects</span>
+          My <span className="font-bold text-secondary">Portfolio</span>
         </h1>
         <div className="relative z-10 grid max-w-4xl gap-6 mx-auto sm:grid-cols-1 mt-4 md:grid-cols-2 lg:grid-cols-3">
           {dataPortfolio.map((data) => (
