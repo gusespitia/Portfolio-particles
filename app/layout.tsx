@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://gusdev.surge.sh",
     languages: {
-      "en-US": "https://your-portfolio-site.com",
+      "en-US": "https://gusdev.surge.sh",
  
     },
   },

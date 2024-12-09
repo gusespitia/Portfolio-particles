@@ -14,7 +14,7 @@ const TestimonialsPage = () => {
       <div className="flex flex-col justify-center h-lvh">
         <CircleImage />
         <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
-          Feedback
+          Testimonials
           <span className="font-bold text-secondary block">
             from my clients
           </span>

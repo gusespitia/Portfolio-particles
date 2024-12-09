@@ -113,12 +113,7 @@ export const dataCounter = [
 ];
 
 export const serviceData = [
-  {
-    icon: <Crop />,
-    title: "Branding",
-    description:
-      "Development of a strong and cohesive brand identity, including logo design, colors, and visual elements.",
-  },
+ 
   {
     icon: <Pencil />,
     title: "Web Design",
@@ -126,18 +121,24 @@ export const serviceData = [
       "Creative and professional design of intuitive and visually appealing web interfaces, focusing on user experience.",
   },
   {
-    icon: <Computer />,
-    title: "Web Development",
-    description:
-      "Custom design and development of websites tailored to your needs.",
-  },
-
-  {
     icon: <Rocket />,
     title: "SEO",
     description:
       "Optimization of your online presence with advanced SEO strategies.",
   },
+  {
+    icon: <Computer />,
+    title: "Web Development",
+    description:
+      "Custom design and development of websites tailored to your needs.",
+  },
+  {
+    icon: <Crop />,
+    title: "Branding",
+    description:
+      "Development of a strong and cohesive brand identity, including logo design, colors, and visual elements.",
+  },
+
 ];
 
 export const dataPortfolio = [
