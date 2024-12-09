@@ -57,7 +57,7 @@ const Introduction = () => {
           </div>
         </div>
       </div>
-      From introduction
+     
     </div>
   );
 };

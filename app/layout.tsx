@@ -3,9 +3,9 @@ import { Urbanist } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
-import 'swiper/css'
-import 'swiper/css/pagination'
-import 'swiper/css/scrollbar'
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 const urbanist = Urbanist({
   subsets: ["latin"],
@@ -24,8 +24,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={urbanist.className}>
-        <Navbar />
         <Header />
+        <Navbar />
+
         {children}
       </body>
     </html>

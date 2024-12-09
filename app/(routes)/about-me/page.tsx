@@ -10,11 +10,12 @@ const pageAboutMe = () => {
       <TransitionPage />
       <ContainerPage>
         <Avatar />
-        <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10">
-        All my <span className="text-secondary font-bold">professional journey</span>
+        <h1 className="text-center text-4xl leading-tight md:text-left lg:text-center md:text-3xl  mx-auto mt-10 xs:text-2xl ">
+          My{" "}
+          <span className="text-secondary font-bold">professional journey</span>
         </h1>
         <CounterServices />
-        <TimeLine/>
+        <TimeLine />
       </ContainerPage>
     </>
   );

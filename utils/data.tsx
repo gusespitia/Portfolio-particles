@@ -141,35 +141,7 @@ export const serviceData = [
 ];
 
 export const dataPortfolio = [
-  // {
-  //     id: 1,
-  //     title: "Web Pro",
-  //     image: "/image-1.jpg",
-  //     urlGithub: "#!",
-  //     urlDemo: "#!",
-  // },
-  // {
-  //     id: 2,
-  //     title: "Agile Web Development",
-  //     image: "/image-2.jpg",
-  //     urlGithub: "#!",
-  //     urlDemo: "#!",
-  // },
-  // {
-  //     id: 3,
-  //     title: "Web Strategies",
-  //     image: "/image-3.jpg",
-  //     urlGithub: "#!",
-  //     urlDemo: "#!",
-  // },
-  // {
-  //     id: 4,
-  //     title: "Creative Ideas",
-  //     image: "/image-4.jpg",
-  //     urlGithub: "#!",
-  //     urlDemo: "#!",
-  // },
-
+  
   {
     id: 1,
     title: "Price Hunter",
@@ -207,34 +179,21 @@ export const dataTestimonials = [
     name: "Juan Perez",
     description:
       "I love the variety of testimonials available on this page. It's inspiring to see how others have overcome challenges similar to mine. Thanks for this invaluable source of motivation!",
-    imageUrl: "/profile2.png",
+    imageUrl: "/profile3.png",
   },
   {
     id: 3,
     name: "Maria Garcia",
     description:
       "An excellent resource for obtaining authentic opinions about different products and services. It has helped me a lot with online shopping. Bravo for this site!",
-    imageUrl: "/profile3.png",
+    imageUrl: "/profile2.png",
   },
   {
     id: 4,
     name: "Laura Snow",
     description:
       "What a fantastic discovery! The testimonials here are honest and detailed. I feel more confident making decisions after reading experiences shared by other users.",
-    imageUrl: "/profile4.png",
-  },
-  {
-    id: 5,
-    name: "Carlos Sanchez",
-    description:
-      "A gem on the web. The testimonials are easy to find and well-organized. Definitely my go-to when I need reliable references!",
     imageUrl: "/profile5.png",
   },
-  {
-    id: 6,
-    name: "Antonio Martinez",
-    description:
-      "A fantastic resource for those seeking validation before making important decisions! The testimonials here are truthful and extremely helpful. Thank you for simplifying my decision-making process!",
-    imageUrl: "/profile6.png",
-  },
+
 ];
