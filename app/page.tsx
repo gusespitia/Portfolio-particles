@@ -4,12 +4,12 @@ import TransitionPage from "@/components/transition-page";
 
 export default function Home() {
   return (
-    <main>
+    <main className="w-full min-h-screen">
       <TransitionPage />
-      <div className="flex min-h-[100vh] h-full bg-no-repeat bg-gradiant-cover">    
-      <CoverParticles /> 
-      <Introduction />   
-      </div> 
+      <div className="flex bg-no-repeat bg-gradiant-cover h-full w-full ">
+        <CoverParticles />
+        <Introduction />
+      </div>
     </main>
   );
 }
