@@ -1,37 +1,41 @@
+"use client";
+
 import AvatarServices from "@/components/avatar-services";
 import CircleImage from "@/components/circle-image";
 import SliderServices from "@/components/slider-services";
 import TransitionPage from "@/components/transition-page";
 import Link from "next/link";
 
-const servicesPage = () => {
+const ServicesPage = () => {
   return (
-    <section className="flex flex-col items-center justify-center h-screen w-full ">
+    <section className="flex flex-col justify-center items-center px-4 sm:px-6 lg:px-20 w-full min-h-screen">
       <TransitionPage />
       <AvatarServices />
-      <div className="grid items-center justify-center h-screen max-w-5xl gap-6 mx-auto md:grid-cols-2 md:px-20 w-screen">
-        <div className="max-w-[500px] mt-6 xs:mt-24 md:mt-0 xs:mx-4">
-          <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-8 xs:mb-6">
-            My <span className="text-secondary font-bold">services</span>
+      <div className="justify-center items-center gap-12 grid md:grid-cols-2 mx-auto md:px-10 lg:px-20 max-w-6xl">
+        {/* Text Section */}
+        <div className="mt-6 md:mt-0 xs:mt-12">
+          <h1 className="md:mb-8 font-semibold text-2xl text-center md:text-left md:text-4xl leading-tight">
+            My <span className="font-bold text-secondary">services</span>
           </h1>
-          <p className="mb-9 text-md text-gray-300 ">
+          <p className="mb-6 text-center text-gray-300 text-md md:text-left">
             I offer frontend web development services specializing in the
             creation of attractive and functional websites and applications.
             Using the latest technologies such as HTML, CSS, and JavaScript, I
             design intuitive and responsive user interfaces that reflect my
             clients&apos; brand identity and improve their online presence.
           </p>
-          <div className="flex items-center justify-center md:justify-start sm:items-center">
+          <div className="flex justify-center md:justify-start items-center">
             <Link
               href="/contact"
-              className="px-8 text-xl py-2 font-semibold text-center text-white bg-secondary rounded-full hover:bg-primary md:text-lg "
+              className="bg-secondary hover:bg-secondary/90 px-6 py-3 rounded-full font-semibold text-center text-lg text-white transition-all duration-300"
             >
               Contact me
             </Link>
           </div>
         </div>
-        {/* SLIDER */}
-        <div className="">
+
+        {/* Slider Section */}
+        <div className="flex justify-center items-center">
           <SliderServices />
         </div>
       </div>
@@ -40,4 +44,4 @@ const servicesPage = () => {
   );
 };
 
-export default servicesPage;
+export default ServicesPage;
