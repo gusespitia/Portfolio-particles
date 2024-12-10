@@ -6,8 +6,8 @@ import Link from "next/link";
 
 const Introduction = () => {
   return (
-    <div className="z-20 w-full bg-darkBg/60">
-      <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
+    <div className="z-20 bg-darkBg/60 w-full">
+      <div className="z-20 items-center grid md:grid-cols-2 py-20 md:py-0 p-6 h-full">
         <Image
           src="/home-4.png"
           priority
@@ -16,7 +16,7 @@ const Introduction = () => {
           height={500}
         />
         <div className="flex flex-col justify-center max-w-md">
-          <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">
+          <h1 className="mb-5 md:mb-10 text-2xl text-center md:text-left md:text-4xl leading-tight">
             If you can imagine it,
             <TypeAnimation
               sequence={[
@@ -34,23 +34,23 @@ const Introduction = () => {
               wrapper="span"
               speed={50}
               repeat={Infinity}
-              className="text-secondary font-bold block"
+              className="block font-bold text-secondary"
             />
           </h1>
-          <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
+          <p className="mx-auto md:mx-0 mb-8 md:mb-8 text-xl xs:text-base">
             As a frontend and backend developer, I specialize in creating digital solutions
             that drive your clients&apos; success in the digital world.
           </p>
-          <div className="flex gap-3 md:justify-start items-center md:gap-10">
+          <div className="flex md:justify-start items-center gap-3 md:gap-10 mx-auto">
             <Link
               href="/portfolio"
-              className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50"
+              className="border-2 hover:shadow-xl hover:shadow-white/50 px-3 py-2 rounded-xl w-fit text-md transition-all cursor-pointer"
             >
               View Projects
             </Link>
             <Link
               href="/contact"
-              className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary text-secondary border-secondary"
+              className="border-2 border-secondary hover:shadow-xl hover:shadow-secondary px-3 py-2 rounded-xl w-fit text-md text-secondary transition-all cursor-pointer"
             >
               Contact Me
             </Link>
