@@ -6,11 +6,10 @@ import {
   Linkedin,
   Crop,
   Pencil,
-  Computer,
-  Book,
+  Computer, 
   Rocket,
-  Speech,
   Github,
+  Binary,
 } from "lucide-react";
 
 export const socialNetworks = [
@@ -53,24 +52,23 @@ export const itemsNavbar = [
   },
   {
     id: 5,
-    title: "Testimonials",
-    icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-    link: "/testimonials",
+    title: "Skills",
+    icon: <Binary size={25} color="#fff" strokeWidth={1} />,
+    link: "/skills",
   },
 ];
 
 export const dataAboutPage = [
   {
     id: 1,
-    title: "IT Technician and Web Developer",
-    subtitle: "Santa Isabel de Hungria - Colombia.",
+    title: "Full Stack Developer",
+    subtitle: "Syntra Mechelen",
     description:
-      "Completed a comprehensive course covering web domains and hosting, essential web design tools, and foundational technologies like HTML, CSS3, and JavaScript. Gained expertise in creating responsive websites using frameworks such as Bootstrap and tools like Dreamweaver, RocketCake, and Mobirise. Advanced knowledge of WordPress, including theme customization, plugin integration, HTTPS setup, and online payment gateways like WooCommerce. Acquired skills in configuring virtual stores, ensuring site security, and registering websites with search engines. The program emphasized creating modern, dynamic web designs tailored for client needs in a competitive digital landscape.",
-    date: "Nov 2011",
+      "Enrolled in an intensive full-time day program to become a Full Stack Developer, combining frontend and backend expertise. The curriculum included HTML, CSS, JavaScript, PHP, and frameworks such as React and advanced backend technologies. Key modules covered functional and object-oriented programming, REST APIs, security, and project management. During the one-month internship, I created an application that allowed user account management, status posting, and a superuser feature for teachers to monitor student activity. Tools used included TailwindCSS, ShadCN, Vercel, Knex.js, and Userfront for authentication. This hands-on experience strengthened my technical skills and prepared me for professional challenges in web development.",
+    date: "Sep 2024",
   },
-
   {
-    id: 2,
+    id: 3,
     title: "Internship",
     subtitle: "David Verhulst.",
     description:
@@ -78,14 +76,13 @@ export const dataAboutPage = [
     date: "Mar 2024",
   },
   {
-    id: 3,
-    title: "Full Stack Developer",
-    subtitle: "Syntra Mechelen",
+    id: 2,
+    title: "IT Technician and Web Developer",
+    subtitle: "Santa Isabel de Hungria - Colombia.",
     description:
-      "Enrolled in an intensive full-time day program to become a Full Stack Developer, combining frontend and backend expertise. The curriculum included HTML, CSS, JavaScript, PHP, and frameworks such as React and advanced backend technologies. Key modules covered functional and object-oriented programming, REST APIs, security, and project management. During the one-month internship, I created an application that allowed user account management, status posting, and a superuser feature for teachers to monitor student activity. Tools used included TailwindCSS, ShadCN, Vercel, Knex.js, and Userfront for authentication. This hands-on experience strengthened my technical skills and prepared me for professional challenges in web development.",
-    date: "Sep 2014",
-  }
-  
+      "Completed a comprehensive course covering web domains and hosting, essential web design tools, and foundational technologies like HTML, CSS3, and JavaScript. Gained expertise in creating responsive websites using frameworks such as Bootstrap and tools like Dreamweaver, RocketCake, and Mobirise. Advanced knowledge of WordPress, including theme customization, plugin integration, HTTPS setup, and online payment gateways like WooCommerce. Acquired skills in configuring virtual stores, ensuring site security, and registering websites with search engines. The program emphasized creating modern, dynamic web designs tailored for client needs in a competitive digital landscape.",
+    date: "Nov 2011",
+  },
 ];
 
 export const dataCounter = [
@@ -113,7 +110,6 @@ export const dataCounter = [
 ];
 
 export const serviceData = [
- 
   {
     icon: <Pencil />,
     title: "Web Design",
@@ -138,11 +134,9 @@ export const serviceData = [
     description:
       "Development of a strong and cohesive brand identity, including logo design, colors, and visual elements.",
   },
-
 ];
 
 export const dataPortfolio = [
-  
   {
     id: 1,
     title: "Price Hunter",
@@ -196,5 +190,4 @@ export const dataTestimonials = [
       "What a fantastic discovery! The testimonials here are honest and detailed. I feel more confident making decisions after reading experiences shared by other users.",
     imageUrl: "/profile5.png",
   },
-
 ];
