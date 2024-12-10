@@ -6,10 +6,12 @@ import Link from "next/link";
 
 const ContactPage = () => {
   return (
+    <section>
+     
     <ContainerPage>
       <TransitionPage />
       <AvatarPortfolio />
-      <CircleImage />
+    
       <div className="flex flex-col justify-center h-full">
       <h1 className="mx-auto mt-10 xs:-mt-8 font-bold text-3xl text-center md:text-left lg:text-center xs:text-2xl leading-snug">
       Get in touch with me
@@ -29,7 +31,10 @@ const ContactPage = () => {
           </Link>
         </div>
       </div>
+      
     </ContainerPage>
+    <CircleImage />
+    </section>
   );
 };
 

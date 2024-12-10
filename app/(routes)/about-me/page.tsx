@@ -8,7 +8,7 @@ import TransitionPage from "@/components/transition-page";
 
 const PageAboutMe = () => {
   return (
-    <>
+    <section>
       <TransitionPage />
       <ContainerPage>
         {/* Avatar Section */}
@@ -32,7 +32,7 @@ const PageAboutMe = () => {
           <TimeLine />
         </div>
       </ContainerPage>
-    </>
+    </section>
   );
 };
 

@@ -70,7 +70,7 @@ export const dataAboutPage = [
   {
     id: 3,
     title: "Internship",
-    subtitle: "David Verhulst.",
+    subtitle: "David Verhulst",
     description:
       "Completed an internship under the guidance of my Syntra professor, where I developed a user management application. The application allowed users to create accounts, post updates, and interact with posts, while professors, acting as superusers, could view all student posts. The project was built using modern technologies: ShadCN, TailwindCSS, React, Node.js, and Vercel. For authentication, Userfront was implemented to manage user access. On the frontend, the setup included a Vite-based workflow with tools like React Router and ESLint, and the backend was powered by Knex.js for database interactions, utilizing PostgreSQL. This comprehensive application streamlined communication and user interactions effectively.",
     date: "Mar 2024",
@@ -78,7 +78,7 @@ export const dataAboutPage = [
   {
     id: 2,
     title: "IT Technician and Web Developer",
-    subtitle: "Santa Isabel de Hungria - Colombia.",
+    subtitle: "Santa Isabel de Hungria - Colombia",
     description:
       "Completed a comprehensive course covering web domains and hosting, essential web design tools, and foundational technologies like HTML, CSS3, and JavaScript. Gained expertise in creating responsive websites using frameworks such as Bootstrap and tools like Dreamweaver, RocketCake, and Mobirise. Advanced knowledge of WordPress, including theme customization, plugin integration, HTTPS setup, and online payment gateways like WooCommerce. Acquired skills in configuring virtual stores, ensuring site security, and registering websites with search engines. The program emphasized creating modern, dynamic web designs tailored for client needs in a competitive digital landscape.",
     date: "Nov 2011",
