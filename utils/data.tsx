@@ -114,7 +114,7 @@ export const serviceData = [
     icon: <Pencil />,
     title: "Web Design",
     description:
-      "Creative and professional design of intuitive and visually appealing web interfaces, focusing on user experience.",
+      "Creative and professional design of intuitive and visually appealing web interfaces.",
   },
   {
     icon: <Rocket />,
