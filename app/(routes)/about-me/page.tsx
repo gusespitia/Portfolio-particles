@@ -15,7 +15,7 @@ const PageAboutMe = () => {
         <Avatar />
 
         {/* Heading */}
-        <h1 className="mx-auto mt-10 font-bold text-3xl text-center md:text-left lg:text-center xs:text-2xl leading-snug">
+        <h1 className="mx-auto mt-10 xs:-mt-10 font-bold text-3xl text-center md:text-left lg:text-center xs:text-2xl leading-snug">
           My{" "}
           <span className="font-bold text-secondary">
             professional journey

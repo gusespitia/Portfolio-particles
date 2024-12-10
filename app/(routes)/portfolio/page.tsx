@@ -19,9 +19,9 @@ const PortfolioPage = () => {
     
 
       {/* Portfolio Content */}
-      <div className="flex flex-col justify-center items-center mt-10">
+      <div className="flex flex-col justify-center items-center xs:-mt-8">
         {/* Page Title */}
-        <h1 className="md:mb-6 font-bold text-2xl text-center md:text-3xl xs:text-xl leading-snug">
+        <h1 className="mx-auto mt-10 xs:-mt-2 font-bold text-3xl text-center md:text-left lg:text-center xs:text-2xl leading-snug">
           My <span className="text-secondary">portfolio</span>
         </h1>
 

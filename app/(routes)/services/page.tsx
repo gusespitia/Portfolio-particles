@@ -13,8 +13,8 @@ const ServicesPage = () => {
       <AvatarServices />
       <div className="justify-center items-center gap-12 grid md:grid-cols-2 mx-auto md:px-10 lg:px-20 max-w-6xl">
         {/* Text Section */}
-        <div className="mt-6 md:mt-0 xs:mt-12">
-          <h1 className="md:mb-8 font-semibold text-2xl text-center md:text-left md:text-4xl leading-tight">
+        <div className="mt-6 md:mt-0 xs:mt-24">
+        <h1 className="mx-auto mt-10 xs:-mt-2 font-bold text-3xl text-center md:text-left lg:text-center xs:text-2xl leading-snug">
             My <span className="font-bold text-secondary">services</span>
           </h1>
           <p className="mb-6 text-center text-gray-300 text-md md:text-left">

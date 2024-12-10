@@ -11,19 +11,19 @@ const ContactPage = () => {
       <AvatarPortfolio />
       <CircleImage />
       <div className="flex flex-col justify-center h-full">
-        <h1 className="text-lg leading-tight text-center md:text-4xl md:mb-9">
-          Get in touch with me
+      <h1 className="mx-auto mt-10 xs:-mt-8 font-bold text-3xl text-center md:text-left lg:text-center xs:text-2xl leading-snug">
+      Get in touch with me
         </h1>
-        <p className="text-center text-xl text-gray-300 mb-6">
+        <p className="mb-6 text-center text-gray-300 text-xl">
           I’d love to connect! If you’re interested in working together or want
           to learn more about my work, feel free to reach out to me on LinkedIn.
         </p>
-        <div className="text-center mt-4">
+        <div className="mt-4 text-center">
           <Link
             href="https://www.linkedin.com/in/gustavo-a-espitia/"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-2 rounded-lg bg-secondary text-white hover:bg-secondary/80 text-xl hover:font-extrabold transition-all duration-300"
+            className="bg-secondary hover:bg-secondary/80 px-6 py-2 rounded-lg hover:font-extrabold text-white text-xl transition-all duration-300"
           >
             Contact me on LinkedIn
           </Link>
