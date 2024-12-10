@@ -1,15 +1,17 @@
 "use client";
 
-import { SiJavascript,SiMysql  } from "react-icons/si";
+import { SiJavascript,SiMysql, SiGit,SiStrapi, SiTypescript    } from "react-icons/si";
 import {
   FaReact,
   FaHtml5,
   FaCss3Alt,
   FaPhp,  
   FaLaravel,
-  FaGithub ,
+  
 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { IoLogoVercel } from "react-icons/io5";
+import { VscVscode } from "react-icons/vsc";
 
 import TransitionPage from "@/components/transition-page";
 
@@ -20,9 +22,13 @@ const skills = [
   { id: 4, name: "CSS3", icon: <FaCss3Alt size={32} color="#1572B6" />, percentage: 90 },
   { id: 5, name: "Tailwind", icon: <RiTailwindCssFill size={32} color="#38B2AC" />, percentage: 80 },
   { id: 6, name: "PHP", icon: <FaPhp size={32} color="#787CB5" />, percentage: 70 },
-  { id: 7, name: "Github", icon: <FaGithub  size={32} color="#F05032" />, percentage: 65 },
+  { id: 7, name: "Git", icon: <SiGit  size={32} color="#F05032" />, percentage: 65 },
   { id: 8, name: "Laravel", icon: <FaLaravel size={32} color="#FF2D20" />, percentage: 60 },
   { id: 9, name: "MySQL", icon: <SiMysql size={32} color="#00758F" />, percentage: 70 },
+  { id: 10, name: "Strapi", icon: <SiStrapi size={32} color="#2E7EEA" />, percentage: 75 },
+  { id: 11, name: "Vercel", icon: <IoLogoVercel size={32} color="#000000" />, percentage: 80 },
+  { id: 12, name: "VSCode", icon: <VscVscode size={32} color="#007ACC" />, percentage: 90 },
+  { id: 13, name: "TypeScript", icon: <SiTypescript size={32} color="#007ACC" />, percentage: 70 },
 ];
 
 const SkillPage = () => {
