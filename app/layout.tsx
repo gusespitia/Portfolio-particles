@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: "Gus Portfolio",
     images: [
       {
-        url: "https://gusdev.surge.sh/home-4.png", // Cambia por un enlace a una imagen representativa de tu portafolio.
+        url: "https://gusdev.surge.sh/Gusdev-logo.png", // Cambia por un enlace a una imagen representativa de tu portafolio.
         width: 1200,
         height: 630,
         alt: "Gus Portfolio - Full Stack Developer",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
       "Explore projects and skills of Gus, a Full Stack Developer experienced in React, Next.js, Node.js, and modern web development.",
     site: "@gusspitya", // Cambia por tu nombre de usuario de Twitter.
     creator: "@gusspitya",
-    images: ["https://gusdev.surge.sh/home-4.png"], // Imagen optimizada para compartir en Twitter.
+    images: ["https://gusdev.surge.sh/Gusdev-logo.png"], // Imagen optimizada para compartir en Twitter.
   },
   robots: {
     index: true,
