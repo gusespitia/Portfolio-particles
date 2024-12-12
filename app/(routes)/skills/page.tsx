@@ -38,7 +38,7 @@ const SkillPage = () => {
 
       {/* Header */}
       <h1 className="mx-auto mt-10 xs:-mt-5 font-bold text-3xl text-center md:text-left lg:text-center xs:text-2xl leading-snug">
-      My <span className="text-secondary">Skills</span>
+      My <span className="text-secondary">skills</span>
       </h1>
       <p className="mb-8 md:mb-12 max-w-xl text-center text-gray-300">
         These are the programming languages and technologies I&apos;m proficient in.

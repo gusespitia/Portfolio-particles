@@ -20,7 +20,7 @@ const CounterServices = () => {
                 } ${lineRightMobile ? "border-e-gray-100" : ""}`}
               >
                 <p className="flex justify-center mx-auto mb-2 font-extrabold text-2xl text-center text-secondary md:text-4xl ju">
-                  + <CountUp end={endCounter} start={0} duration={5}></CountUp>
+                  + <CountUp end={endCounter} start={0} duration={8}></CountUp>
                 </p>
                 <p className="max-w-[100px] text-xs uppercase">{text}</p>
               </div>
