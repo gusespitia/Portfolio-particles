@@ -150,7 +150,7 @@ export const dataPortfolio = [
     title: "GusFlix Clone",
     image: "/image-2.png",
     urlGithub: "https://github.com/gusespitia/netflix-clone",
-    urlDemo: "https://netflixen-gustavos-projects-8028da13.vercel.app/login",
+    urlDemo: "https://gusflix.vercel.app",
   },
   {
     id: 3,
