@@ -139,27 +139,34 @@ export const serviceData = [
 export const dataPortfolio = [
   {
     id: 1,
+    title: "EcoLectura",
+    image: "/image.png",
+    urlGithub: "https://github.com/gusespitia/books-sharing/tree/books",
+    urlDemo: "https://ecolectura.vercel.app/en",
+  },
+  {
+    id: 2,
     title: "Price Hunter",
     image: "/image-1.png",
     urlGithub: "https://github.com/gusespitia/price-hunter-backend",
     urlDemo: "https://priceshunter.vercel.app",
   },
   {
-    id: 2,
+    id: 3,
     title: "Koncept K.",
     image: "/image-4.png",
     urlGithub: "https://github.com/gusespitia/website-Koncept-K",
     urlDemo: "https://koncept-k.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Eccomerce-Coffee",
     image: "/image-3.png",
     urlGithub: "https://github.com/gusespitia/eccomerce-coffe-be-gus",
     urlDemo: "https://ecommerce-coffe-q8n7.vercel.app",
   },
   {
-    id: 4,
+    id: 5,
     title: "GusFlix Clone",
     image: "/image-2.png",
     urlGithub: "https://github.com/gusespitia/netflix-clone",
